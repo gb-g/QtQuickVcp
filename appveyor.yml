@@ -2,6 +2,8 @@
 # http://www.appveyor.com/docs/build-configuration
 version: build{build}
 
+image: Visual Studio 2015
+
 platform:
   - Win64
 
