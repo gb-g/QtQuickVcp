@@ -1,0 +1,35 @@
+name: macOS build
+
+on: [push]
+
+jobs:
+  buildMacOS:
+    name: macOS
+    runs-on: macos-10.15
+    steps:
+    - name: Check out repository code
+      uses: actions/checkout@v2
+    - run: echo "QT_SHORT_VERSION=5.8" >> $GITHUB_ENV
+    - run: echo "QT_LONG_VERSION=5.8.0" >> $GITHUB_ENV
+    - run: echo "QT_INSTALLER_ROOT=qt-opensource-mac-x64-clang-${QT_LONG_VERSION}" >> $GITHUB_ENV
+    - run: echo "QT_INSTALLER_FILENAME=${QT_INSTALLER_ROOT}.dmg" >> $GITHUB_ENV
+    - run: echo "QT_PATH=$HOME/qt" >> $GITHUB_ENV
+    - run: echo "QT_MACOS=$QT_PATH/$QT_SHORT_VERSION/clang_64" >> $GITHUB_ENV
+    - run: echo "$QT_MACOS/bin" >> $GITHUB_PATH
+    - run: echo "/usr/local/opt/gnu-tar/libexec/gnubin" >> $GITHUB_PATH
+    - run: ./build/travis/job_macos/install.sh
+    - run: ./build/travis/job_macos/build.sh
+    - name: Release
+      run: |
+        filename=$(find . -name "$FILE")
+        tagname=$(echo "$filename" | sed -E 's|^[^-]*-(.*)-[^-]*$|\1|')
+        gh release create "$tagname" -n "$MESSAGE" -t "MachinekitClient-Development" "$filename"
+      env:
+        MESSAGE: |
+          MachinekitClient_Development for
+          x64 (64-bit Intel/AMD) Linux systems (Portable AppImages)
+          Windows 32bit and 64bit
+          x64 (64-bit Intel/AMD) MacOSX systems
+          FOR TESTING PURPOSES ONLY!
+        FILE: MachinekitClient_Development*x64.dmg
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
