@@ -379,6 +379,10 @@ Restart now?</source>
         <source>Spanish</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Chinese</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>LauncherPage</name>

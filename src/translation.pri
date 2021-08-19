@@ -1,4 +1,4 @@
-LANGUAGES = en ru de es
+LANGUAGES = en ru de es zh
 OUTPUT_DIR = $$OUT_PWD/../../translations
 
 defineReplace(prependAll) {
