@@ -1,5 +1,5 @@
 TARGET_NAME = $$lower($$NAME)
-LANGUAGES = en ru de es
+LANGUAGES = en ru de es zh
 OUTPUT_DIR = $$TRANSLATIONS_OUT_PATH
 
 defineReplace(prependAll) {

@@ -393,6 +393,10 @@ Jetzt neustarten?</translation>
         <source>Spanish</source>
         <translation>Spanisch</translation>
     </message>
+    <message>
+        <source>Chinese</source>
+        <translation>Chinesisch</translation>
+    </message>
 </context>
 <context>
     <name>LauncherPage</name>

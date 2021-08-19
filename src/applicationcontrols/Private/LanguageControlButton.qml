@@ -23,6 +23,7 @@ Image {
           //"uk": "ukranian",
           //"it": "italian",
           //"tu": "turkish",
+          "zh": "chinese",
         }
 
         var language = ApplicationHelpers.currentLanguage;
@@ -81,6 +82,15 @@ Image {
             checked: root.activeLanguage == "spanish"
             exclusiveGroup: exclusiveGroup
             onTriggered: root.setLanguage("es")
+        }
+
+        MenuItem {
+            text: qsTr("Chinese")
+            iconSource: "qrc:Machinekit/Application/Controls/icons/flag-chinese"
+            checkable: true
+            checked: root.activeLanguage == "chinese"
+            exclusiveGroup: exclusiveGroup
+            onTriggered: root.setLanguage("zh")
         }
 
         ExclusiveGroup {
