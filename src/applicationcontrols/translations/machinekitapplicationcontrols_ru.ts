@@ -5,37 +5,47 @@
     <name>AppPage</name>
     <message>
         <source>QML Error:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка QML:</translation>
+    </message>
+    <message>
+        <source>Loading QML file failed:
+</source>
+        <translation>Сбой файла QML:
+</translation>
     </message>
 </context>
 <context>
     <name>ApplicationFileDialog</name>
     <message>
         <source>Open File</source>
-        <translation type="unfinished"></translation>
+        <translation>Открыть файл</translation>
     </message>
     <message>
         <source>All machinable files (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Все обрабатываемые файлы (%1)</translation>
     </message>
     <message>
         <source>rs274ngc files (*.ngc)</source>
-        <translation type="unfinished"></translation>
+        <translation>Файлы rs274ngc (*.ngc)</translation>
     </message>
     <message>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Все файлы (*)</translation>
+    </message>
+    <message>
+        <source>Text files (*.txt)</source>
+        <translation>Текстовый файлы (*.txt)</translation>
     </message>
 </context>
 <context>
     <name>ApplicationProgressBar</name>
     <message>
         <source>Uploading file %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Загрузка файла %1</translation>
     </message>
     <message>
         <source>Downloading file %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Скачивание файла %1</translation>
     </message>
     <message>
         <source>%1% - %2</source>
@@ -46,116 +56,116 @@
     <name>ApplicationRemoteFileDialog</name>
     <message>
         <source>Remote Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Дистанционные файлы</translation>
     </message>
     <message>
         <source>Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Вверх</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Название</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Размер</translation>
     </message>
     <message>
         <source>Last Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Последнее изменение</translation>
     </message>
     <message>
         <source>Open directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Открыть каталог</translation>
     </message>
     <message>
         <source>Open file</source>
-        <translation type="unfinished"></translation>
+        <translation>Открыть файл</translation>
     </message>
     <message>
         <source>Remove directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Удалить каталог</translation>
     </message>
     <message>
         <source>Remove file</source>
-        <translation type="unfinished"></translation>
+        <translation>Удалить файл</translation>
     </message>
     <message>
         <source>Upload file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Загрузить файл...</translation>
     </message>
     <message>
         <source>Create directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Создать каталог</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>Обновить</translation>
     </message>
     <message>
         <source>Upload...</source>
-        <translation type="unfinished"></translation>
+        <translation>Загрузить</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Удалить</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation type="unfinished"></translation>
+        <translation>Открыть</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Закрыть</translation>
     </message>
     <message>
         <source>Enter Directory Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Ввести имя каталога</translation>
     </message>
 </context>
 <context>
     <name>BlockDeleteAction</name>
     <message>
         <source>Block Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Удаление блока</translation>
     </message>
     <message>
         <source>Enable block delete [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить удаление блока [%1]</translation>
     </message>
 </context>
 <context>
     <name>ConfigPage</name>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Назад</translation>
     </message>
     <message>
         <source>Remote UIs</source>
-        <translation type="unfinished"></translation>
+        <translation>Дистанционные пользовательские интерфейсы</translation>
     </message>
     <message>
         <source>Local UIs</source>
-        <translation type="unfinished"></translation>
+        <translation>Локальные пользовательские интерфейсы</translation>
     </message>
 </context>
 <context>
     <name>ConnectionWindow</name>
     <message>
         <source>Instance Error:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка экземпляра</translation>
     </message>
     <message>
         <source>Check uri and uuid</source>
-        <translation type="unfinished"></translation>
+        <translation>Проверить унифицированный идентификатор ресурса и универсальный уникальный идентификатор</translation>
     </message>
     <message>
         <source>Application Config Error:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка конфигурации приложения</translation>
     </message>
     <message>
         <source>Application Launcher Error:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка запуска приложения</translation>
     </message>
 </context>
 <context>
@@ -166,134 +176,134 @@
     </message>
     <message>
         <source>Turn spindle slower [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Вращать шпиндель медленнее [%1]</translation>
     </message>
 </context>
 <context>
     <name>DigitalReadOut</name>
     <message>
         <source>Vel:</source>
-        <translation type="unfinished"></translation>
+        <translation>Фактическая скорость движения:</translation>
     </message>
     <message>
         <source>DTG:</source>
-        <translation type="unfinished"></translation>
+        <translation>Расстояние:</translation>
     </message>
     <message>
         <source>Rad:</source>
-        <translation type="unfinished"></translation>
+        <translation>Радиус:</translation>
     </message>
     <message>
         <source>Dia:</source>
-        <translation type="unfinished"></translation>
+        <translation>Диаметр:</translation>
     </message>
     <message>
         <source>DTG</source>
-        <translation type="unfinished"></translation>
+        <translation>Расстояние </translation>
     </message>
     <message>
         <source>TLO</source>
-        <translation type="unfinished"></translation>
+        <translation>Изменение длины инструмента</translation>
     </message>
     <message>
         <source>S:</source>
-        <translation type="unfinished"></translation>
+        <translation>Площадь:</translation>
     </message>
 </context>
 <context>
     <name>EditToolTableAction</name>
     <message>
         <source>Edit &amp;Tool Table...</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактировать таблицу инструментов...</translation>
     </message>
     <message>
         <source>Edit Tool Table [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактировать таблицу инструментов [%1]</translation>
     </message>
 </context>
 <context>
     <name>EditWithSystemEditorAction</name>
     <message>
         <source>&amp;Edit File with System Editor...</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактировать файл с помощью системного редактора...</translation>
     </message>
     <message>
         <source>Edit G-Code file with System Editor [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактировать G-Code-файл с помощью системного редактора [%1]</translation>
     </message>
 </context>
 <context>
     <name>EstopAction</name>
     <message>
         <source>Estop</source>
-        <translation type="unfinished"></translation>
+        <translation>Кнопка экстренной остановки</translation>
     </message>
     <message>
         <source>Toggle Emergency Stop [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Выключить аварийную остановку [%1]</translation>
     </message>
 </context>
 <context>
     <name>EstopPowerAction</name>
     <message>
         <source>Power</source>
-        <translation type="unfinished"></translation>
+        <translation>Питание</translation>
     </message>
     <message>
         <source>Reset Machine [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Сброс настроек [%1]</translation>
     </message>
 </context>
 <context>
     <name>FeedHoldAction</name>
     <message>
         <source>Feed Hold</source>
-        <translation type="unfinished"></translation>
+        <translation>Удержание подачи</translation>
     </message>
     <message>
         <source>Enable feed hold [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить задержку подачи [%1]</translation>
     </message>
 </context>
 <context>
     <name>FeedOverrideAction</name>
     <message>
         <source>Feed Override</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактировать подачу</translation>
     </message>
     <message>
         <source>Enable feed override [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Измененить скорость подачи [%1]</translation>
     </message>
 </context>
 <context>
     <name>FloodAction</name>
     <message>
         <source>Flood</source>
-        <translation type="unfinished"></translation>
+        <translation>Заливка</translation>
     </message>
     <message>
         <source>Enable flood [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Включение заливки [%1]</translation>
     </message>
 </context>
 <context>
     <name>HomeAxisAction</name>
     <message>
         <source>Home</source>
-        <translation type="unfinished"></translation>
+        <translation>Домашнее положение</translation>
     </message>
     <message>
         <source>Home All</source>
-        <translation type="unfinished"></translation>
+        <translation>Все в домашнем положении</translation>
     </message>
     <message>
         <source>Home axis %1 [%2]</source>
-        <translation type="unfinished"></translation>
+        <translation>Ось %1 в домашнем положении [%2]</translation>
     </message>
     <message>
         <source>Home all axes [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Все оси в домашнем положении [%1]</translation>
     </message>
 </context>
 <context>
@@ -304,552 +314,561 @@
     </message>
     <message>
         <source>Turn spindle faster [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Повернунть шпиндель [%1]</translation>
     </message>
 </context>
 <context>
     <name>InstancePage</name>
     <message>
         <source>Multicast</source>
-        <translation type="unfinished"></translation>
+        <translation>Многоадресная рассылка</translation>
     </message>
     <message>
         <source>Available Instances:</source>
-        <translation type="unfinished"></translation>
+        <translation>Доступные экземпляры</translation>
     </message>
     <message>
         <source>Warning!&lt;br&gt;No network connection found, service discovery unavailable. Please check your network connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Предупреждение!&lt;br&gt;Сетевое соединение не найдено, обнаружение службы недоступно. Пожалуйста, проверьте ваше сетевое соединение.</translation>
     </message>
     <message>
         <source>Unicast</source>
-        <translation type="unfinished"></translation>
+        <translation>Одноадресный</translation>
     </message>
     <message>
         <source>Machinekit Instances:</source>
-        <translation type="unfinished"></translation>
+        <translation>Модели Machinekit:</translation>
     </message>
     <message>
         <source>Instance %1:</source>
-        <translation type="unfinished"></translation>
+        <translation>Модели %1:</translation>
     </message>
     <message>
         <source>IP address or hostname</source>
-        <translation type="unfinished"></translation>
+        <translation>IP-адрес или имя хоста</translation>
     </message>
 </context>
 <context>
     <name>JogAction</name>
     <message>
         <source>Jog Axis %1 [%2]</source>
-        <translation type="unfinished"></translation>
+        <translation>Скорость движения оси %1 [%2]</translation>
     </message>
 </context>
 <context>
     <name>JogDistanceHandler</name>
     <message>
         <source>Continuous</source>
-        <translation type="unfinished"></translation>
+        <translation>Непрерывное движение</translation>
     </message>
 </context>
 <context>
     <name>LanguageControlButton</name>
     <message>
         <source>English</source>
-        <translation type="unfinished"></translation>
+        <translation>Английский</translation>
     </message>
     <message>
         <source>German</source>
-        <translation type="unfinished"></translation>
+        <translation>Немецкий</translation>
     </message>
     <message>
         <source>Russian</source>
-        <translation type="unfinished"></translation>
+        <translation>Русский</translation>
     </message>
     <message>
         <source>Restart Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Перезапустить приложение</translation>
     </message>
     <message>
         <source>For the change to take effect, you need to restart the application.
 Restart now?</source>
-        <translation type="unfinished"></translation>
+        <translation>Чтобы изменение вступило в силу, необходимо перезапустить приложение.
+Перезапустить сейчас?</translation>
     </message>
     <message>
         <source>Spanish</source>
-        <translation type="unfinished"></translation>
+        <translation>Испанский</translation>
     </message>
     <message>
         <source>Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Китайский</translation>
     </message>
 </context>
 <context>
     <name>LauncherPage</name>
     <message>
         <source>System Shutdown</source>
-        <translation type="unfinished"></translation>
+        <translation>Завершение работы системы</translation>
     </message>
     <message>
         <source>Do you really want to shutdown the Machinekit system?</source>
-        <translation type="unfinished"></translation>
+        <translation>Вы действительно хотите завершить работу системы Machinekit?</translation>
     </message>
     <message>
         <source>Available Launchers:</source>
-        <translation type="unfinished"></translation>
+        <translation>Готов к заупску</translation>
     </message>
     <message>
         <source>List</source>
-        <translation type="unfinished"></translation>
+        <translation>Список</translation>
     </message>
     <message>
         <source>Small</source>
-        <translation type="unfinished"></translation>
+        <translation>Малый</translation>
     </message>
     <message>
         <source>Big</source>
-        <translation type="unfinished"></translation>
+        <translation>Большой</translation>
     </message>
     <message>
         <source>Shutdown</source>
-        <translation type="unfinished"></translation>
+        <translation>Завершить работу</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Назад</translation>
     </message>
     <message>
         <source>Terminating...</source>
-        <translation type="unfinished"></translation>
+        <translation>Завершить...</translation>
     </message>
     <message>
         <source>Running...</source>
-        <translation type="unfinished"></translation>
+        <translation>Выполняется...</translation>
     </message>
     <message>
         <source>Kill</source>
-        <translation type="unfinished"></translation>
+        <translation>Выключить</translation>
     </message>
     <message>
         <source>Terminate</source>
-        <translation type="unfinished"></translation>
+        <translation>Остановить</translation>
     </message>
 </context>
 <context>
     <name>LoadingPage</name>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Назад</translation>
     </message>
     <message>
         <source>Loading %1...</source>
-        <translation type="unfinished"></translation>
+        <translation>Загрузка %1...</translation>
     </message>
     <message>
         <source>user interface</source>
-        <translation type="unfinished"></translation>
+        <translation>пользовательский интерфейс</translation>
     </message>
 </context>
 <context>
     <name>MdiCommandAction</name>
     <message>
         <source>Go</source>
-        <translation type="unfinished"></translation>
+        <translation>Пуск</translation>
     </message>
     <message>
         <source>Execute MDI command [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Выполнить команду ручной ввод данных [%1]</translation>
     </message>
 </context>
 <context>
     <name>MdiCommandEdit</name>
     <message>
         <source>MDI</source>
-        <translation type="unfinished"></translation>
+        <translation>Ручной ввод данных</translation>
     </message>
 </context>
 <context>
     <name>MdiHistoryTable</name>
     <message>
+        <source>Clear list</source>
+        <translation type="vanished">Очистить список</translation>
+    </message>
+    <message>
         <source>Clear History</source>
-        <translation type="unfinished"></translation>
+        <translation>Очистить историю</translation>
     </message>
 </context>
 <context>
     <name>MistAction</name>
     <message>
         <source>Mist</source>
-        <translation type="unfinished"></translation>
+        <translation>Подсветка</translation>
     </message>
     <message>
         <source>Enable mist [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить подсветку [%1]</translation>
     </message>
 </context>
 <context>
     <name>OpenAction</name>
     <message>
         <source>Open File from Machine...</source>
-        <translation type="unfinished"></translation>
+        <translation>Открыть файл с машины...</translation>
+    </message>
+    <message>
+        <source>Open G-Code file [%1]</source>
+        <translation type="vanished">Открыть файл G-Code [%1]</translation>
     </message>
     <message>
         <source>Open File...</source>
-        <translation type="unfinished"></translation>
+        <translation>Открыть файл...</translation>
     </message>
     <message>
         <source>Open G-Code file stored on machine [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Открыть файл G-Code, хранящийся на машине [%1]</translation>
     </message>
     <message>
         <source>Open G-Code file stored on local computer [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Открыть файл G-Code, хранящийся на локальном компьютере [%1]</translation>
     </message>
 </context>
 <context>
     <name>OptionalStopAction</name>
     <message>
         <source>Optional Stop (M1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Опциональная остановка экструдера командной строкой</translation>
     </message>
     <message>
         <source>Optional stop [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Опциональная остановка [%1]</translation>
     </message>
 </context>
 <context>
     <name>OverrideLimitsAction</name>
     <message>
         <source>Override Limits</source>
-        <translation type="unfinished"></translation>
+        <translation>Лимит на изменение предустановленных значений</translation>
     </message>
     <message>
         <source>Override the machine limits [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Отменить ограничения [%1]</translation>
     </message>
 </context>
 <context>
     <name>PauseResumeProgramAction</name>
     <message>
         <source>Resume</source>
-        <translation type="unfinished"></translation>
+        <translation>Возобновить</translation>
     </message>
     <message>
         <source>Pause</source>
-        <translation type="unfinished"></translation>
+        <translation>Пауза</translation>
     </message>
     <message>
         <source>Resume execution [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Возобновить выполнение [%1]</translation>
     </message>
     <message>
         <source>Pause execution [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Приостановить выполнение [%1]</translation>
     </message>
 </context>
 <context>
     <name>PowerAction</name>
     <message>
         <source>Power</source>
-        <translation type="unfinished"></translation>
+        <translation>Питание</translation>
     </message>
     <message>
         <source>Toggle Machine power [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Переключить мощность машины [%1]</translation>
     </message>
 </context>
 <context>
     <name>ReopenAction</name>
     <message>
         <source>Reopen File</source>
-        <translation type="unfinished"></translation>
+        <translation>Повторно открыть файл</translation>
     </message>
     <message>
         <source>Reopen current file [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Повторно открыть текущий файл [%1]</translation>
     </message>
 </context>
 <context>
     <name>RunProgramAction</name>
     <message>
         <source>Run</source>
-        <translation type="unfinished"></translation>
+        <translation>Запуск</translation>
     </message>
     <message>
         <source>Begin executing current file [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Начать выполнение текущего файла [%1]</translation>
     </message>
 </context>
 <context>
     <name>SelectedPage</name>
     <message>
         <source>Starting %1...</source>
-        <translation type="unfinished"></translation>
+        <translation>Запуск %1...</translation>
     </message>
     <message>
         <source>Error starting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка при запуске %1</translation>
     </message>
     <message>
         <source>%1 exited</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 Завершен</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Назад</translation>
     </message>
     <message>
         <source>Process exited with return code %1. See the log for details.</source>
-        <translation type="unfinished"></translation>
+        <translation>Процесс завершен с кодом возврата %1. Подробности смотрите в журнале.</translation>
     </message>
     <message>
         <source>Application Output</source>
-        <translation type="unfinished"></translation>
+        <translation>Выход из приложения</translation>
     </message>
     <message>
         <source>Machinekit Log</source>
-        <translation type="unfinished"></translation>
+        <translation>Журнал Machinekit</translation>
     </message>
 </context>
 <context>
     <name>ServiceWindow</name>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Назад</translation>
     </message>
     <message>
         <source>Waiting for services to appear...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ожидание сервиса</translation>
     </message>
     <message>
         <source>%1 service</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 сервис</translation>
     </message>
 </context>
 <context>
     <name>ShutdownAction</name>
     <message>
         <source>Sh&amp;utdown</source>
-        <translation type="unfinished"></translation>
+        <translation>Неисправность</translation>
     </message>
     <message>
         <source>Shutdown Machinekit instance [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Завершение работы Machinekit [%1]</translation>
     </message>
 </context>
 <context>
     <name>SpindleCcwAction</name>
     <message>
         <source>CCW</source>
-        <translation type="unfinished"></translation>
+        <translation>Против часовой стрелки</translation>
     </message>
     <message>
         <source>Turn spindle counterclockwise [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Повернуть шпиндель против часовой стрелки [%1]</translation>
     </message>
 </context>
 <context>
     <name>SpindleCwAction</name>
     <message>
         <source>CW</source>
-        <translation type="unfinished"></translation>
+        <translation>По часовой стрелке</translation>
     </message>
     <message>
         <source>Turn spindle clockwise [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Повернуть шпиндель по часовой стрелке [%1]</translation>
     </message>
 </context>
 <context>
     <name>SpindleOverrideAction</name>
     <message>
         <source>Spindle Override</source>
-        <translation type="unfinished"></translation>
+        <translation>Блокировка шпинделя</translation>
     </message>
     <message>
         <source>Enable spindle override [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Изменение положения шпинделя [%1]</translation>
     </message>
 </context>
 <context>
     <name>StepProgramAction</name>
     <message>
         <source>Step</source>
-        <translation type="unfinished"></translation>
+        <translation>Шаг</translation>
     </message>
     <message>
         <source>Execute next line [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Выполнить следующую строку [%1]</translation>
     </message>
 </context>
 <context>
     <name>StopProgramAction</name>
     <message>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>Стоп</translation>
     </message>
     <message>
         <source>Stop program execution [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Остановить выполнение программы [%1]</translation>
     </message>
 </context>
 <context>
     <name>StopSpindleAction</name>
     <message>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>Стоп</translation>
     </message>
     <message>
         <source>Stop spindle [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Остановить шпиндель [%1]</translation>
     </message>
 </context>
 <context>
     <name>TeleopAction</name>
     <message>
         <source>Teleop Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Удаленное управление</translation>
     </message>
     <message>
         <source>Enable teleop mode [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить удаленное управление [%1]</translation>
     </message>
 </context>
 <context>
     <name>ToolTableEditor</name>
     <message>
         <source>Tool ID</source>
-        <translation type="unfinished"></translation>
+        <translation>ID инструмента</translation>
     </message>
     <message>
         <source>Pocket</source>
-        <translation type="unfinished"></translation>
+        <translation>Ячейка</translation>
     </message>
     <message>
         <source>X</source>
-        <translation type="unfinished"></translation>
+        <translation>X</translation>
     </message>
     <message>
         <source>Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Y</translation>
     </message>
     <message>
         <source>Z</source>
-        <translation type="unfinished"></translation>
+        <translation>Z</translation>
     </message>
     <message>
         <source>A</source>
-        <translation type="unfinished"></translation>
+        <translation>A</translation>
     </message>
     <message>
         <source>B</source>
-        <translation type="unfinished"></translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>C</source>
-        <translation type="unfinished"></translation>
+        <translation>C</translation>
     </message>
     <message>
         <source>U</source>
-        <translation type="unfinished"></translation>
+        <translation>U</translation>
     </message>
     <message>
         <source>V</source>
-        <translation type="unfinished"></translation>
+        <translation>V</translation>
     </message>
     <message>
         <source>W</source>
-        <translation type="unfinished"></translation>
+        <translation>W</translation>
     </message>
     <message>
         <source>Diameter</source>
-        <translation type="unfinished"></translation>
+        <translation>Диаметр</translation>
     </message>
     <message>
         <source>Front Angle</source>
-        <translation type="unfinished"></translation>
+        <translation>Передний угол</translation>
     </message>
     <message>
         <source>Back Angle</source>
-        <translation type="unfinished"></translation>
+        <translation>Задний угол</translation>
     </message>
     <message>
         <source>Orientation</source>
-        <translation type="unfinished"></translation>
+        <translation>Ориентировка</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Комментарий</translation>
     </message>
 </context>
 <context>
     <name>ToolTableEditorDialog</name>
     <message>
         <source>Tool Table Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактор таблицы инструментов</translation>
     </message>
     <message>
         <source>Error in tool table.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка в таблице инструментов.</translation>
     </message>
     <message>
         <source>Tool table has modifications.</source>
-        <translation type="unfinished"></translation>
+        <translation>В таблица инструментов есть изменения.</translation>
     </message>
     <message>
         <source>Add Row</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавить строку</translation>
     </message>
     <message>
         <source>Remove Row</source>
-        <translation type="unfinished"></translation>
+        <translation>Удалить строку</translation>
     </message>
     <message>
         <source>Reset Modifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Сбросить изменения</translation>
     </message>
     <message>
         <source>Update Tool Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Обновить таблицу инструментов</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Закрыть</translation>
     </message>
 </context>
 <context>
     <name>TouchOffAction</name>
     <message>
         <source>Touch Off</source>
-        <translation type="unfinished"></translation>
+        <translation>Касание откл</translation>
     </message>
     <message>
         <source>Set G5x offset for active axis [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Установить смещение G5x для активной оси [%1]</translation>
     </message>
 </context>
 <context>
     <name>TouchOffDialog</name>
     <message>
         <source>Touch Off</source>
-        <translation type="unfinished"></translation>
+        <translation>Отключить датчик</translation>
     </message>
     <message>
         <source>Enter %1 coordinate relative to workpiece:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ввести координату %1 относительно заготовки:</translation>
     </message>
     <message>
         <source>Coordinate system:</source>
-        <translation type="unfinished"></translation>
+        <translation>Система координат:</translation>
     </message>
 </context>
 <context>
     <name>UnhomeAxisAction</name>
     <message>
         <source>Unhome</source>
-        <translation type="unfinished"></translation>
+        <translation>Привязка</translation>
     </message>
     <message>
         <source>Unhome axis %1 [%2]</source>
-        <translation type="unfinished"></translation>
+        <translation>Ось %1 без привязки [%2]</translation>
     </message>
 </context>
 <context>

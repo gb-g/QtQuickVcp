@@ -5,23 +5,23 @@
     <name>ValueChart</name>
     <message>
         <source>Autoscroll enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Автопрокрутка включена</translation>
     </message>
     <message>
         <source>Autoscroll disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Автопрокрутка выключена</translation>
     </message>
     <message>
         <source>Timespan: %1%2</source>
-        <translation type="unfinished"></translation>
+        <translation>Продолжительность: %1%2</translation>
     </message>
     <message>
         <source>Value: &lt;br&gt;&lt;b&gt;%1&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Значение: &lt;br&gt;&lt;b&gt;%1&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Target: &lt;br&gt;&lt;b&gt;%1&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Цель:</translation>
     </message>
 </context>
 </TS>

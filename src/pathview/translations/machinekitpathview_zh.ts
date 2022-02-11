@@ -39,48 +39,48 @@
     </message>
     <message>
         <source>Perspective</source>
-        <translation type="unfinished"></translation>
+        <translation>透视</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>错误</translation>
     </message>
     <message>
         <source>Front view</source>
-        <translation type="unfinished"></translation>
+        <translation>正视图</translation>
     </message>
     <message>
         <source>Top view</source>
-        <translation type="unfinished"></translation>
+        <translation>顶视图</translation>
     </message>
     <message>
         <source>Rotated top view</source>
-        <translation type="unfinished"></translation>
+        <translation>旋转顶视图</translation>
     </message>
     <message>
         <source>Side view</source>
-        <translation type="unfinished"></translation>
+        <translation>侧视图</translation>
     </message>
 </context>
 <context>
     <name>ZoomInAction</name>
     <message>
         <source>Zoom In</source>
-        <translation type="unfinished"></translation>
+        <translation>放大</translation>
     </message>
 </context>
 <context>
     <name>ZoomOriginalAction</name>
     <message>
         <source>Reset Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>重置缩放</translation>
     </message>
 </context>
 <context>
     <name>ZoomOutAction</name>
     <message>
         <source>Zoom Out</source>
-        <translation type="unfinished"></translation>
+        <translation>缩小</translation>
     </message>
 </context>
 </TS>

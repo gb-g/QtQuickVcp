@@ -24,6 +24,9 @@
 #include <QCommandLineParser>
 #include <QIcon>
 #include <QSettings>
+#include <QTranslator>
+#include <QLibraryInfo>
+#include <QDir>
 
 #include "../../src/application/revision.h"
 
@@ -77,5 +80,13 @@ int main(int argc, char *argv[])
 #else
     engine.addImportPath(QStringLiteral("../../imports")); // for in place execution
 #endif
+
+    QTranslator translator;
+    if (translator.load(QLocale(), QLatin1String("qt"), QLatin1String("_"), 
+                        QDir(QDir::currentPath()).filePath("translations")))
+    {
+        QCoreApplication::installTranslator(&translator);
+    }
+
     return app.exec();
 }

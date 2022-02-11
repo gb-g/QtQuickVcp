@@ -5,15 +5,15 @@
     <name>ServiceDisplay</name>
     <message>
         <source>Service Display</source>
-        <translation type="unfinished"></translation>
+        <translation>服务展示</translation>
     </message>
     <message>
         <source>Discovered Services</source>
-        <translation type="unfinished"></translation>
+        <translation>发现的服务</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>后退</translation>
     </message>
     <message>
         <source>host name = %1
@@ -26,7 +26,7 @@ port = %3</source>
     <name>main</name>
     <message>
         <source>Machinekit Client</source>
-        <translation type="unfinished"></translation>
+        <translation>Machinekit客户端</translation>
     </message>
 </context>
 </TS>

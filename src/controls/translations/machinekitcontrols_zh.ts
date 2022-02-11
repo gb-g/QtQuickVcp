@@ -5,23 +5,23 @@
     <name>ValueChart</name>
     <message>
         <source>Autoscroll enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>启用自动滚动</translation>
     </message>
     <message>
         <source>Autoscroll disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>禁用自动滚动</translation>
     </message>
     <message>
         <source>Timespan: %1%2</source>
-        <translation type="unfinished"></translation>
+        <translation>时间跨度: %1%2</translation>
     </message>
     <message>
         <source>Value: &lt;br&gt;&lt;b&gt;%1&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>数值: &lt;br&gt;&lt;b&gt;%1&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Target: &lt;br&gt;&lt;b&gt;%1&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>目标: &lt;br&gt;&lt;b&gt;%1&lt;/b&gt;</translation>
     </message>
 </context>
 </TS>
