@@ -2,15 +2,7 @@ setlocal
 @echo ON
 
 cd %APPVEYOR_BUILD_FOLDER%
-mkdir -p tmp
-cd tmp
-
 :: get version label
-appveyor DownloadFile http://ci.roessler.systems/files/qt-bin/UnxUtils.zip -Filename UnxUtils.zip
-7z x UnxUtils.zip || goto :error
-cp usr\local\wbin\date.exe . || goto :error
-
-cd ..
 
 git describe --exact-match HEAD
 if %ERRORLEVEL% == 0 (
@@ -19,7 +11,7 @@ if %ERRORLEVEL% == 0 (
     SET release=0
 )
 if %release% == 0 (
-    for /f %%i in ('tmp\date.exe -u +"%%Y%%m%%d%%H%%M"') do set datetime=%%i
+    for /f %%i in ('powershell get-date -format "yyyyMMddHHmm"') do set datetime=%%i
 
     ::for /f %%i in ('git rev-parse --abbrev-ref HEAD') do set branch=%%i
     set branch=%APPVEYOR_REPO_BRANCH%
@@ -36,44 +28,68 @@ echo #define REVISION "%version%" > src\application\revision.h || goto :error
 appveyor UpdateBuild -Version "%version%-%ARCH%" || goto :error
 
 
-cd tmp
-appveyor DownloadFile http://ci.roessler.systems/files/qt-bin/protobuf-win-%ARCH%.7z -Filename protolibs.7z || goto :error
-7z x protolibs.7z || goto :error
-cd protolibs
+::mkdir -p tmp
+::cd tmp
+cd %HOMEDRIVE%%HOMEPATH%
+mkdir -p bin
+cd bin
+git clone https://github.com/google/protobuf.git
+cd protobuf
+git checkout v2.6.1
+cd vsprojects
 if %ARCH% == x64 (
+    msbuild protobuf.sln /t:libprotobuf /p:Platform=x64 /p:Configuration=Release
+    msbuild protobuf.sln /t:libprotobuf-lite /p:Platform=x64 /p:Configuration=Release
+    msbuild protobuf.sln /t:libprotoc /p:Platform=x64 /p:Configuration=Release
+    msbuild protobuf.sln /t:protoc /p:Platform=x64 /p:Configuration=Release
     SET PROTODIR=%HOMEDRIVE%%HOMEPATH%\bin\protobuf\vsprojects\x64\Release
 ) else (
+    msbuild protobuf.sln /t:libprotobuf /p:Platform=Win32 /p:Configuration=Release
+    msbuild protobuf.sln /t:libprotobuf /p:Platform=Win32 /p:Configuration=Release
+    msbuild protobuf.sln /t:libprotoc /p:Platform=Win32 /p:Configuration=Release
+    msbuild protobuf.sln /t:protoc /p:Platform=Win32 /p:Configuration=Release
+    ::msbuild protobuf.sln /p:Platform=Win32 /p:Configuration=Release
     SET PROTODIR=%HOMEDRIVE%%HOMEPATH%\bin\protobuf\vsprojects\Release
 )
-mkdir -p %PROTODIR%
-mv protoc.exe %PROTODIR%\ || goto :error
-mv libprotoc.lib %PROTODIR%\ || goto :error
-cp libprotobuf.lib %PROTODIR%\ || goto :error
-mv libprotobuf.lib %QTDIR%\lib\ || goto :error
-cd ..
+::mkdir -p %PROTODIR%
+::mv protoc.exe %PROTODIR%\ || goto :error
+::mv libprotoc.lib %PROTODIR%\ || goto :error
+::cp libprotobuf.lib %PROTODIR%\ || goto :error
+cp %PROTODIR%\libprotobuf.lib %QTDIR%\lib\ || goto :error
 
+cd %APPVEYOR_BUILD_FOLDER%
+mkdir -p tmp
+cd tmp
 SET PROTOVERSION=2.6.1
 appveyor DownloadFile https://github.com/google/protobuf/archive/v%PROTOVERSION%.zip -Filename protosrc.zip
 7z x protosrc.zip || goto :error
 cd protobuf-%PROTOVERSION% || goto :error
 SET PROTODIR=%HOMEDRIVE%%HOMEPATH%\bin\protobuf\
 cp -r src %PROTODIR% || goto :error
-cd .. || goto :error
+::cd .. || goto :error
 
-appveyor DownloadFile http://ci.roessler.systems/files/qt-bin/zeromq-win-%ARCH%.7z -Filename zmqlibs.7z || goto :error
-7z x zmqlibs.7z || goto :error
-cd zmqlibs
+cd %HOMEDRIVE%%HOMEPATH%\bin
+git clone https://github.com/zeromq/zeromq4-x.git
+cd zeromq4-x
+git checkout v4.0.8
+cd builds\msvc
 if %ARCH% == x64 (
+    msbuild msvc11.sln /t:libzmq /p:Platform=x64 /p:Configuration=Release
+::    msbuild msvc11.sln /p:Platform=x64 /p:Configuration=Release
     SET ZEROMQDIR=%HOMEDRIVE%%HOMEPATH%\bin\zeromq4-x\lib\x64
+    SET ZEROMQDIRBIN=%HOMEDRIVE%%HOMEPATH%\bin\zeromq4-x\bin\x64
 ) else (
+    msbuild msvc11.sln /t:libzmq /p:Platform=Win32 /p:Configuration=Release
     SET ZEROMQDIR=%HOMEDRIVE%%HOMEPATH%\bin\zeromq4-x\lib\Win32
+    SET ZEROMQDIRBIN=%HOMEDRIVE%%HOMEPATH%\bin\zeromq4-x\bin\Win32
 )
-mkdir -p %ZEROMQDIR%
-cp libzmq.lib %ZEROMQDIR%\ || goto :error
-mv libzmq.lib %QTDIR%\lib\ || goto :error
-mv libzmq.dll %QTDIR%\bin\ || goto :error
-cd ..
+::mkdir -p %ZEROMQDIR%
+::cp libzmq.lib %ZEROMQDIR%\ || goto :error
+cp %ZEROMQDIR%\libzmq.lib %QTDIR%\lib\ || goto :error
+cp %ZEROMQDIRBIN%\libzmq.dll %QTDIR%\bin\ || goto :error
 
+cd %APPVEYOR_BUILD_FOLDER%
+cd tmp 
 SET ZMQVERSION=4.0.8
 appveyor DownloadFile https://github.com/zeromq/zeromq4-x/archive/v%ZMQVERSION%.zip -Filename zmqsrc.zip || goto :error
 7z x zmqsrc.zip || goto :error
