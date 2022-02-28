@@ -38,6 +38,7 @@ export QT_PLUGIN_PATH="${QT_MACOS}/plugins"
 export QML_IMPORT_PATH="${QT_MACOS}/qml"
 export QML2_IMPORT_PATH="${QT_MACOS}/qml"
 export QT_QPA_PLATFORM_PLUGIN_PATH="${QT_MACOS}/plugins/platforms"
+export QT_TRANSLATIONS_PATH="${QT_MACOS}/translations"
 export QT_INSTALL_PREFIX="${QT_MACOS}"
 
 mkdir -p build.release
@@ -66,6 +67,11 @@ ls
 qmldir=${PWD}/../apps/MachinekitClient/
 appdir=./apps/MachinekitClient/
 cd $appdir
+cp -r ../../translations .
+cp ${QT_TRANSLATIONS_PATH}/*_de.qm translations/
+cp ${QT_TRANSLATIONS_PATH}/*_ru.qm translations/
+cp ${QT_TRANSLATIONS_PATH}/*_es.qm translations/
+cp ${QT_TRANSLATIONS_PATH}/*_zh_CN.qm translations/
 ls
 macdeployqt machinekit-client.app -qmldir=$qmldir -dmg -verbose=2
 cd ../../
