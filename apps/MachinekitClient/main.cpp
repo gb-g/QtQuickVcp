@@ -70,6 +70,8 @@ int main(int argc, char *argv[])
         app.setAttribute(Qt::AA_UseOpenGLES);
     }
 #endif
+    
+    QCoreApplication::setAttribute(Qt::AA_DontUseNativeMenuBar);
 
     QQmlApplicationEngine engine;
     engine.addImportPath(QStringLiteral("qml"));
