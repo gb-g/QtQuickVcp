@@ -33,6 +33,7 @@
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
+    app.setAttribute(Qt::AA_DontUseNativeMenuBar);
     app.setOrganizationName("Machinekit Project");
     app.setOrganizationDomain("machinekit.io");
     app.setApplicationName("MachinekitClient");
@@ -70,8 +71,6 @@ int main(int argc, char *argv[])
         app.setAttribute(Qt::AA_UseOpenGLES);
     }
 #endif
-    
-    QCoreApplication::setAttribute(Qt::AA_DontUseNativeMenuBar);
 
     QQmlApplicationEngine engine;
     engine.addImportPath(QStringLiteral("qml"));
