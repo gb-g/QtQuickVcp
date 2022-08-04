@@ -72,6 +72,7 @@ cp ${QT_TRANSLATIONS_PATH}/*_de.qm translations/
 cp ${QT_TRANSLATIONS_PATH}/*_ru.qm translations/
 cp ${QT_TRANSLATIONS_PATH}/*_es.qm translations/
 cp ${QT_TRANSLATIONS_PATH}/*_zh_CN.qm translations/
+cp ${QT_TRANSLATIONS_PATH}/*_fr.qm translations/
 ls
 macdeployqt machinekit-client.app -qmldir=$qmldir -dmg -verbose=2
 cd ../../

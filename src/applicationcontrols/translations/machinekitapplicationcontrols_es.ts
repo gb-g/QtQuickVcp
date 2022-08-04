@@ -389,6 +389,10 @@
         <translation>Chino</translation>
     </message>
     <message>
+        <source>French</source>
+        <translation>Francés</translation>
+    </message>
+    <message>
         <source>Restart Application</source>
         <translation>Reinicie la aplicación</translation>
     </message>
