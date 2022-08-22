@@ -9,6 +9,9 @@ image: Visual Studio 2015
 platform:
   - Win64
 
+cache:
+  - c:\tools\vcpkg\installed\
+
 environment:
   global:
     release_description: "
@@ -32,6 +35,10 @@ configuration:
   - release
 
 install:
+  - cd C:\Tools\vcpkg
+  - git pull
+  - .\bootstrap-vcpkg.bat
+  - cd %APPVEYOR_BUILD_FOLDER%
   - ps: $env:release_tag = &git rev-parse --short $env:APPVEYOR_REPO_COMMIT
   - '%QTDIR%\bin\qtenv2.bat'
   - '"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat" %ARCH%'

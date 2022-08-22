@@ -33,17 +33,17 @@ win32-msvc*: {
     CONFIG(debug, debug|release): PROTOBUF_DEBUG = Debug
     CONFIG(release, debug|release): PROTOBUF_DEBUG = Release
 
-    PROTOBUF_INCLUDE_PATH = $$(HOMEDRIVE)$$(HOMEPATH)/bin/protobuf/src
+    PROTOBUF_INCLUDE_PATH = $$(HOMEDRIVE)$$(HOMEPATH)/bin/protobuf/include
     ZEROMQ_INCLUDE_PATH = $$(HOMEDRIVE)$$(HOMEPATH)/bin/zeromq4-x/include
     contains(QMAKE_TARGET.arch, x86_64) {
         ZEROMQ_LIB_PATH = $$(HOMEDRIVE)$$(HOMEPATH)/bin/zeromq4-x/lib/x64
         PROTOBUF_LIB_PATH = $$(HOMEDRIVE)$$(HOMEPATH)/bin/protobuf/vsprojects/x64/$$PROTOBUF_DEBUG
-        PROTOBUF_PROTOC = $$(HOMEDRIVE)$$(HOMEPATH)/bin/protobuf/vsprojects/x64/$$PROTOBUF_DEBUG/protoc.exe
+        PROTOBUF_PROTOC = $$(HOMEDRIVE)/tools/vcpkg/installed/x64-windows-static-md/tools/protobuf/protoc.exe
     }
     else {
         ZEROMQ_LIB_PATH = $$(HOMEDRIVE)$$(HOMEPATH)/bin/zeromq4-x/lib\Win32
         PROTOBUF_LIB_PATH = $$(HOMEDRIVE)$$(HOMEPATH)/bin/protobuf/vsprojects/$$PROTOBUF_DEBUG
-        PROTOBUF_PROTOC = $$(HOMEDRIVE)$$(HOMEPATH)/bin/protobuf/vsprojects/$$PROTOBUF_DEBUG/protoc.exe
+        PROTOBUF_PROTOC = $$(HOMEDRIVE)/tools/vcpkg/installed/x86-windows-static-md/tools/protobuf/protoc.exe
     }
 }
 win32-g++ {
