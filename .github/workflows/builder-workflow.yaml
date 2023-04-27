@@ -10,26 +10,26 @@ on:
 jobs:
   buildTest_x64:
     name: Test_x64
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     steps:
     - name: Check out repository code
       uses: actions/checkout@v2
     - name: Install extra packages
       run: |
         sudo apt-get update        
-        sudo apt-get install bsdtar
+        sudo apt-get install libarchive-tools
     - run: ./build/travis/job1_Test/build.sh --x86_64
 
   buildAppImage_x64:
     name: AppImage_x64
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     steps:
     - name: Check out repository code
       uses: actions/checkout@v2
     - name: Install extra packages
       run: |
         sudo apt-get update
-        sudo apt-get install bsdtar
+        sudo apt-get install libarchive-tools
     - run: ./build/travis/job2_AppImage/build.sh --x86_64
     - name: Release
       run: ./build/github/release.sh "$APP" "$LIB" "Linux 64bit"
