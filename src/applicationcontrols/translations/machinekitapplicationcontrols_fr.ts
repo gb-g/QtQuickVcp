@@ -402,6 +402,10 @@ Relancer maintenant?</translation>
         <source>French</source>
         <translation>Français</translation>
     </message>
+    <message>
+        <source>Polish</source>
+        <translation>Polonais</translation>
+    </message>
 </context>
 <context>
     <name>LauncherPage</name>

@@ -13,6 +13,7 @@
         <file>MachinekitClient.ServiceDisplay/translations/servicedisplay_es.qm</file>
         <file>MachinekitClient.ServiceDisplay/translations/servicedisplay_zh.qm</file>
         <file>MachinekitClient.ServiceDisplay/translations/servicedisplay_fr.qm</file>
+        <file>MachinekitClient.ServiceDisplay/translations/servicedisplay_pl.qm</file>
         <file>MachinekitClient.LiveCoding/description.ini</file>
         <file>MachinekitClient.LiveCoding/LiveCoding.qml</file>
     </qresource>

@@ -95,6 +95,7 @@
         <file alias="flag-ukrainian">icons/flags/ukrainian.png</file>
         <file alias="flag-chinese">icons/flags/chinese.png</file>
         <file alias="flag-french">icons/flags/french.png</file>
+        <file alias="flag-polish">icons/flags/polish.png</file>
     </qresource>
     <qresource prefix="/"/>
 </RCC>

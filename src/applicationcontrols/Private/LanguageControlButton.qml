@@ -25,6 +25,7 @@ Image {
           //"tu": "turkish",
           "zh": "chinese",
           "fr": "french",
+          "pl": "polish",
         }
 
         var language = ApplicationHelpers.currentLanguage;
@@ -101,6 +102,15 @@ Image {
             checked: root.activeLanguage == "french"
             exclusiveGroup: exclusiveGroup
             onTriggered: root.setLanguage("fr")
+        }
+
+        MenuItem {
+            text: qsTr("Polish")
+            iconSource: "qrc:Machinekit/Application/Controls/icons/flag-polish"
+            checkable: true
+            checked: root.activeLanguage == "polish"
+            exclusiveGroup: exclusiveGroup
+            onTriggered: root.setLanguage("pl")
         }
 
         ExclusiveGroup {

@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de_DE">
+<TS version="2.1" language="pl_PL">
 <context>
     <name>AppPage</name>
     <message>
         <source>QML Error:</source>
-        <translation>QML Fehler:</translation>
+        <translation>Błąd QML:</translation>
     </message>
     <message>
-        <source>Loading QML file failed</source>
-        <translation type="vanished">Laden der QML Datei fehlgeschlagen
+        <source>Loading QML file failed:
+</source>
+        <translation>Nie udało się załadować pliku QML:
 </translation>
     </message>
 </context>
@@ -17,34 +18,38 @@
     <name>ApplicationFileDialog</name>
     <message>
         <source>Please choose a file</source>
-        <translation type="vanished">Datei auswählen</translation>
+        <translation type="vanished">Proszę wybrać plik</translation>
     </message>
     <message>
         <source>All machinable files (%1)</source>
-        <translation>Alle verarbeitbaren Dateien (%1)</translation>
+        <translation>Wszystkie pliki nadające się do obróbki (%1)</translation>
     </message>
     <message>
         <source>rs274ngc files (*.ngc)</source>
-        <translation>rs274ngc Dateien (*.ngc)</translation>
+        <translation>Pliki rs274ngc (*.ngc)</translation>
     </message>
     <message>
         <source>All files (*)</source>
-        <translation>Alle Dateien (*)</translation>
+        <translation>Wszystkie pliki (*)</translation>
     </message>
     <message>
         <source>Open File</source>
-        <translation>Datei öffnen</translation>
+        <translation>Otwórz plik</translation>
+    </message>
+    <message>
+        <source>Text files (*.txt)</source>
+        <translation>Pliki text (*.txt)</translation>
     </message>
 </context>
 <context>
     <name>ApplicationProgressBar</name>
     <message>
         <source>Uploading file %1</source>
-        <translation>Lade Datei %1 hoch</translation>
+        <translation>Ładowanie pliku %1</translation>
     </message>
     <message>
         <source>Downloading file %1</source>
-        <translation>Lade Datei %1 herunter</translation>
+        <translation>Pobieranie pliku %1</translation>
     </message>
     <message>
         <source>%1% - %2</source>
@@ -54,121 +59,117 @@
 <context>
     <name>ApplicationRemoteFileDialog</name>
     <message>
-        <source>Remote files</source>
-        <translation type="vanished">Netzwerkdateien</translation>
+        <source>Remote Files</source>
+        <translation>Pliki zdalne</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Name</translation>
+        <translation>Nazwa</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Größe</translation>
+        <translation>Rozmiar</translation>
     </message>
     <message>
         <source>Last Modified</source>
-        <translation>Zuletzt Modifiziert</translation>
+        <translation>Ostatnio modyfikowane</translation>
     </message>
     <message>
         <source>Remove file</source>
-        <translation>Datei entfernen</translation>
+        <translation>Usuń plik</translation>
     </message>
     <message>
         <source>Open file</source>
-        <translation>Datei öffnen</translation>
+        <translation>Otwórz plik</translation>
     </message>
     <message>
         <source>Upload file...</source>
-        <translation>Datei hochladen...</translation>
+        <translation>Załaduj plik...</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation>Aktualisieren</translation>
+        <translation>Odśwież</translation>
     </message>
     <message>
         <source>Upload...</source>
-        <translation>Hochladen...</translation>
+        <translation>Załaduj...</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Entfernen</translation>
+        <translation>Usuń</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Öffnen</translation>
+        <translation>Otwórz</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Schließen</translation>
-    </message>
-    <message>
-        <source>Remote Files</source>
-        <translation>Netzwerkdateien</translation>
+        <translation>Zamknij</translation>
     </message>
     <message>
         <source>Up</source>
-        <translation>Nach oben</translation>
+        <translation>Do góry</translation>
     </message>
     <message>
         <source>Open directory</source>
-        <translation>Ordner öffnen</translation>
+        <translation>Otwórz katalog</translation>
     </message>
     <message>
         <source>Remove directory</source>
-        <translation>Ordner löschen</translation>
+        <translation>Usuń katalog</translation>
     </message>
     <message>
         <source>Create directory</source>
-        <translation>Neuer Ordner</translation>
+        <translation>Utwórz katalog</translation>
     </message>
     <message>
         <source>Enter Directory Name</source>
-        <translation>Ordnernamen eingeben</translation>
+        <translation>Wprowadź nazwę katalogu</translation>
     </message>
 </context>
 <context>
     <name>BlockDeleteAction</name>
     <message>
         <source>Block Delete</source>
-        <translation>Block Löschen</translation>
+        <translation>Usuń blok</translation>
     </message>
     <message>
         <source>Enable block delete [%1]</source>
-        <translation>Block Löschen aktivieren [%1]</translation>
+        <translation>Aktywuj usuwanie bloku [%1]</translation>
     </message>
 </context>
 <context>
     <name>ConfigPage</name>
     <message>
         <source>Back</source>
-        <translation>Zurück</translation>
+        <translation>Powrót</translation>
     </message>
     <message>
         <source>Remote UIs</source>
-        <translation>Remote UIs</translation>
+        <translation>Interfejs zdalny</translation>
     </message>
     <message>
         <source>Local UIs</source>
-        <translation>Lokale UIs</translation>
+        <translation>Interfejs lokalny</translation>
     </message>
 </context>
 <context>
     <name>ConnectionWindow</name>
     <message>
         <source>Instance Error:</source>
-        <translation>Instanzfehler:</translation>
+        <translation>Błąd instancji:</translation>
     </message>
     <message>
         <source>Check uri and uuid</source>
-        <translation>URI und UUID überprüfen</translation>
+        <translation>Sprawdź URI i UUID</translation>
     </message>
     <message>
         <source>Application Config Error:</source>
-        <translation>Application Config Fehler:</translation>
+        <translation>Błąd konfiguracji aplikacji:</translation>
     </message>
     <message>
         <source>Application Launcher Error:</source>
-        <translation>Application Launcher Error:</translation>
+        <translation>Błąd programu do uruchamiania aplikacji:</translation>
     </message>
 </context>
 <context>
@@ -179,134 +180,134 @@
     </message>
     <message>
         <source>Turn spindle slower [%1]</source>
-        <translation>Spindelgeschwindkeit reduzieren [%1]</translation>
+        <translation>Zmniejsz prędkość obrotową wrzeciona [%1]</translation>
     </message>
 </context>
 <context>
     <name>DigitalReadOut</name>
     <message>
         <source>Vel:</source>
-        <translation>Gsw:</translation>
+        <translation>Prędkość:</translation>
     </message>
     <message>
         <source>DTG:</source>
-        <translation>DTG:</translation>
+        <translation>Odległość do pokonania:</translation>
     </message>
     <message>
         <source>Rad:</source>
-        <translation>Rad:</translation>
+        <translation>Promień:</translation>
     </message>
     <message>
         <source>Dia:</source>
-        <translation>Dm:</translation>
+        <translation>Średnica:</translation>
     </message>
     <message>
         <source>DTG</source>
-        <translation>DTG</translation>
+        <translation>Odległość do pokonania</translation>
     </message>
     <message>
         <source>TLO</source>
-        <translation>TLO</translation>
+        <translation>Kompensacja długości narzędzia</translation>
     </message>
     <message>
         <source>S:</source>
-        <translation type="unfinished"></translation>
+        <translation>Wrzeciono:</translation>
     </message>
 </context>
 <context>
     <name>EditToolTableAction</name>
     <message>
         <source>Edit &amp;Tool Table...</source>
-        <translation>Werkzeugtabelle &amp;bearbeiten...</translation>
+        <translation>Edytuj tabelę narzędzi...</translation>
     </message>
     <message>
-        <source>Edit Tool Table [%1]</source>
-        <translation>Werkzeugtabelle bearbeiten [%1]</translation>
+        <source>Edytuj tabelę narzędzi [%1]</source>
+        <translation>Éditer table outils [%1]</translation>
     </message>
 </context>
 <context>
     <name>EditWithSystemEditorAction</name>
     <message>
         <source>Edit G-Code file with System Editor [%1]</source>
-        <translation>G-Code Datei mit Systemeditor bearbeiten [%1]</translation>
+        <translation>Edytuj G-kod za pomocą Edytora Systemowego [%1]</translation>
     </message>
     <message>
         <source>&amp;Edit File with System Editor...</source>
-        <translation>Datei mit Systemeditor &amp;bearbeiten...</translation>
+        <translation>&amp;Edytuj plik za pomocą Edytora Systemowego...</translation>
     </message>
 </context>
 <context>
     <name>EstopAction</name>
     <message>
         <source>Estop</source>
-        <translation>Notaus</translation>
+        <translation>Wyłącznik awaryjny</translation>
     </message>
     <message>
         <source>Toggle Emergency Stop [%1]</source>
-        <translation>Notaus umschalten [%1]</translation>
+        <translation>Przełącz wyłącznik awaryjny [%1]</translation>
     </message>
 </context>
 <context>
     <name>EstopPowerAction</name>
     <message>
         <source>Power</source>
-        <translation>Strom</translation>
+        <translation>Zasilanie</translation>
     </message>
     <message>
         <source>Reset Machine [%1]</source>
-        <translation>Maschine zurücksetzen [%1]</translation>
+        <translation>Reset maszyny [%1]</translation>
     </message>
 </context>
 <context>
     <name>FeedHoldAction</name>
     <message>
         <source>Feed Hold</source>
-        <translation>Vorschub anhalten</translation>
+        <translation>Wstrzymanie posuwu</translation>
     </message>
     <message>
         <source>Enable feed hold [%1]</source>
-        <translation>Vorschub anhalten aktivieren [%1]</translation>
+        <translation>Aktywuj wstrzymanie posuwu [%1]</translation>
     </message>
 </context>
 <context>
     <name>FeedOverrideAction</name>
     <message>
         <source>Feed Override</source>
-        <translation>Vorschub überschreiben</translation>
+        <translation>Zmiana nastawy posuwu</translation>
     </message>
     <message>
         <source>Enable feed override [%1]</source>
-        <translation>Vorschub überschreiben aktivieren [%1]</translation>
+        <translation>Aktywuj zmianę nastawy posuwu [%1]</translation>
     </message>
 </context>
 <context>
     <name>FloodAction</name>
     <message>
         <source>Flood</source>
-        <translation>Überspülen</translation>
+        <translation>Chłodziwo</translation>
     </message>
     <message>
         <source>Enable flood [%1]</source>
-        <translation>Überspülen aktivieren [%1]</translation>
+        <translation>Aktywuj chłodziwo [%1]</translation>
     </message>
 </context>
 <context>
     <name>HomeAxisAction</name>
     <message>
         <source>Home</source>
-        <translation>Heimen</translation>
+        <translation>Baza</translation>
     </message>
     <message>
         <source>Home All</source>
-        <translation>Heime Alle</translation>
+        <translation>Zbazuj wszystko</translation>
     </message>
     <message>
         <source>Home axis %1 [%2]</source>
-        <translation>Heime Achse %1 [%2]</translation>
+        <translation>Zbazuj oś %1 [%2]</translation>
     </message>
     <message>
         <source>Home all axes [%1]</source>
-        <translation>Heime alle achsen [%1]</translation>
+        <translation>Zbazuj wszystke osie [%1]</translation>
     </message>
 </context>
 <context>
@@ -317,7 +318,7 @@
     </message>
     <message>
         <source>Turn spindle faster [%1]</source>
-        <translation>Spindelgschwindigkeit erhöhen [%1]</translation>
+        <translation>Zwiększ obroty wrzeciona [%1]</translation>
     </message>
 </context>
 <context>
@@ -328,7 +329,7 @@
     </message>
     <message>
         <source>Available Instances:</source>
-        <translation>Verfügbare Instanzen:</translation>
+        <translation>Dostępne instancje:</translation>
     </message>
     <message>
         <source>Unicast</source>
@@ -336,346 +337,346 @@
     </message>
     <message>
         <source>Machinekit Instances:</source>
-        <translation>Machinekit Instanzen:</translation>
+        <translation>Instancje Machinekit:</translation>
     </message>
     <message>
         <source>Instance %1:</source>
-        <translation>Instanz %1:</translation>
+        <translation>Instancje %1:</translation>
     </message>
     <message>
         <source>IP address or hostname</source>
-        <translation>IP Adresse oder Hostname</translation>
+        <translation>Adres IP lub nazwa hosta</translation>
     </message>
     <message>
         <source>Warning!&lt;br&gt;No network connection found, service discovery unavailable. Please check your network connection.</source>
-        <translation>Warnung!&lt;br&gt;Keine Netzwerkverbindung gefunden. Dienstsuche nicht verfügbar. Bitte prüfen Sie Ihre Netzwerkverbindung.</translation>
+        <translation>Ostrzeżenie!&lt;br&gt;Nie znaleziono połączenia sieciowego, wykrywanie usługi jest niedostępne. Sprawdź połączenie sieciowe.</translation>
     </message>
 </context>
 <context>
     <name>JogAction</name>
     <message>
         <source>Jog Axis %1 [%2]</source>
-        <translation>Achse %1 bewegen [%2]</translation>
+        <translation>Jog oś %1 [%2]</translation>
     </message>
 </context>
 <context>
     <name>JogDistanceHandler</name>
     <message>
         <source>Continuous</source>
-        <translation>Kontinuierlich</translation>
+        <translation>Ciągły</translation>
     </message>
 </context>
 <context>
     <name>LanguageControlButton</name>
     <message>
         <source>English</source>
-        <translation>Englisch</translation>
+        <translation>Angielski</translation>
     </message>
     <message>
         <source>German</source>
-        <translation>Deutsch</translation>
+        <translation>Niemiecki</translation>
     </message>
     <message>
         <source>Russian</source>
-        <translation>Russisch</translation>
+        <translation>Rosyjski</translation>
     </message>
     <message>
         <source>Restart Application</source>
-        <translation>Applikation neustarten</translation>
+        <translation>Uruchom program ponownie</translation>
     </message>
     <message>
         <source>For the change to take effect, you need to restart the application.
 Restart now?</source>
-        <translation>Damit die Änderung übernommen wird, muss die Anwendung neugestartet werden.
-Jetzt neustarten?</translation>
+        <translation>W celu wprowadzenia zmian niezbędne jest ponowne uruchomienie aplikacji.
+Uruchomić ponownie?</translation>
     </message>
     <message>
         <source>Spanish</source>
-        <translation>Spanisch</translation>
+        <translation>Hiszpański</translation>
     </message>
     <message>
         <source>Chinese</source>
-        <translation>Chinesisch</translation>
+        <translation>Chinski</translation>
     </message>
     <message>
         <source>French</source>
-        <translation>Französisch</translation>
+        <translation>Français</translation>
     </message>
     <message>
         <source>Polish</source>
-        <translation>Polnisch</translation>
+        <translation>Polski</translation>
     </message>
 </context>
 <context>
     <name>LauncherPage</name>
     <message>
         <source>System Shutdown</source>
-        <translation>System Herunterfahren</translation>
+        <translation>Wyłączenie systemu</translation>
     </message>
     <message>
         <source>Do you really want to shutdown the Machinekit system?</source>
-        <translation>Wollen Sie das Machinekit System wirklich beenden?</translation>
+        <translation>Czy na pewno chcesz wyłączyć system Machinekit?</translation>
     </message>
     <message>
         <source>Available Launchers:</source>
-        <translation>Verfügbare Starter:</translation>
+        <translation>Dostępne programy uruchamiające:</translation>
     </message>
     <message>
         <source>List</source>
-        <translation>Liste</translation>
+        <translation>Lista</translation>
     </message>
     <message>
         <source>Small</source>
-        <translation>Klein</translation>
+        <translation>Mały</translation>
     </message>
     <message>
         <source>Big</source>
-        <translation>Groß</translation>
+        <translation>Duży</translation>
     </message>
     <message>
         <source>Shutdown</source>
-        <translation>Herunterfahren</translation>
+        <translation>Wyłączenie</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Zurück</translation>
+        <translation>Powrót</translation>
     </message>
     <message>
         <source>Terminating...</source>
-        <translation>Beende...</translation>
+        <translation>Kończenie...</translation>
     </message>
     <message>
         <source>Running...</source>
-        <translation>Läuft...</translation>
+        <translation>W toku...</translation>
     </message>
     <message>
         <source>Kill</source>
-        <translation>Abschießen</translation>
+        <translation>Wyłącz</translation>
     </message>
     <message>
         <source>Terminate</source>
-        <translation>Beenden</translation>
+        <translation>Zakończ</translation>
     </message>
 </context>
 <context>
     <name>LoadingPage</name>
     <message>
         <source>Back</source>
-        <translation>Zurück</translation>
+        <translation>Powrót</translation>
     </message>
     <message>
         <source>Loading %1...</source>
-        <translation>Lade %1...</translation>
+        <translation>Ładowanie %1...</translation>
     </message>
     <message>
         <source>user interface</source>
-        <translation>Benutzeroberfläche</translation>
+        <translation>interfejs użytkownika</translation>
     </message>
 </context>
 <context>
     <name>MdiCommandAction</name>
     <message>
         <source>Go</source>
-        <translation>Ausführen</translation>
+        <translation>Idź</translation>
     </message>
     <message>
         <source>Execute MDI command [%1]</source>
-        <translation>MDI Kommando ausführen [%1]</translation>
+        <translation>Wykonaj polecenie MDI [%1]</translation>
     </message>
 </context>
 <context>
     <name>MdiCommandEdit</name>
     <message>
         <source>MDI</source>
-        <translation>MDI</translation>
+        <translation>Ręczne wprowadzanie danych (MDI)</translation>
     </message>
 </context>
 <context>
     <name>MdiHistoryTable</name>
     <message>
         <source>Clear list</source>
-        <translation type="vanished">Liste leeren</translation>
+        <translation type="vanished">Wyczyść listę</translation>
     </message>
     <message>
         <source>Clear History</source>
-        <translation>Verlauf löschen</translation>
+        <translation>Wyczyść historię</translation>
     </message>
 </context>
 <context>
     <name>MistAction</name>
     <message>
         <source>Mist</source>
-        <translation>Nebel</translation>
+        <translation>Mgła</translation>
     </message>
     <message>
         <source>Enable mist [%1]</source>
-        <translation>Nebel einschalten [%1]</translation>
+        <translation>Aktywuj mgłę [%1]</translation>
     </message>
 </context>
 <context>
     <name>OpenAction</name>
     <message>
         <source>Open file</source>
-        <translation type="vanished">Datei öffnen</translation>
+        <translation type="vanished">Otwórz plik</translation>
     </message>
     <message>
         <source>Open G-Code file [%1]</source>
-        <translation type="vanished">GCode Datei öffen [%1]</translation>
+        <translation type="vanished">Otwórz plik G-code [%1]</translation>
     </message>
     <message>
         <source>Open File...</source>
-        <translation>Datei öffnen...</translation>
+        <translation>Otwórz plik...</translation>
     </message>
     <message>
         <source>Open File from Machine...</source>
-        <translation>Datei von Maschine öffnen...</translation>
+        <translation>Otwórz plik G-code z maszyny...</translation>
     </message>
     <message>
         <source>Open G-Code file stored on machine [%1]</source>
-        <translation>Auf der Maschine gespeicherte G-Code Datei öffnen [%1]</translation>
+        <translation>Otwórz plik G-code zapisany w maszynie [%1]</translation>
     </message>
     <message>
         <source>Open G-Code file stored on local computer [%1]</source>
-        <translation>Auf dem lokalen Computer gespeicherte G-Code Datei öffnen [%1]</translation>
+        <translation>Otwórz plik G-code zapisany na lokalnym komputerze [%1]</translation>
     </message>
 </context>
 <context>
     <name>OptionalStopAction</name>
     <message>
         <source>Optional stop (M1)</source>
-        <translation type="vanished">Optionaler Stop (M1)</translation>
+        <translation type="vanished">Wyłącznik opcjonalny (M1)</translation>
     </message>
     <message>
         <source>Optional stop [%1]</source>
-        <translation>Optionaler Stop [%1]</translation>
+        <translation>Wyłącznik opcjonalny [%1]</translation>
     </message>
     <message>
         <source>Optional Stop (M1)</source>
-        <translation>Optionaler Stop (M1)</translation>
+        <translation>Wyłącznik opcjonalny (M1）</translation>
     </message>
 </context>
 <context>
     <name>OverrideLimitsAction</name>
     <message>
         <source>Override Limits</source>
-        <translation>Maschinenlimits überschreiben</translation>
+        <translation>Zmień nastawę wartości granicznych</translation>
     </message>
     <message>
         <source>Override the machine limits [%1]</source>
-        <translation>Maschinenlimits überschreiben [%1]</translation>
+        <translation>Zmień nastawę wartości granicznych maszyny [%1]</translation>
     </message>
 </context>
 <context>
     <name>PauseResumeProgramAction</name>
     <message>
         <source>Resume</source>
-        <translation>Fortsetzen</translation>
+        <translation>Wznów</translation>
     </message>
     <message>
         <source>Pause</source>
-        <translation>Pausieren</translation>
+        <translation>Zatrzymaj</translation>
     </message>
     <message>
         <source>Pause execution [%1]</source>
-        <translation>Ausführen pausieren [%1]</translation>
+        <translation>Zatrzymaj realizację [%1]</translation>
     </message>
     <message>
         <source>Resume execution [%1]</source>
-        <translation>Ausführung fortsetzen [%1]</translation>
+        <translation>Wznów realizację [%1]</translation>
     </message>
 </context>
 <context>
     <name>PowerAction</name>
     <message>
         <source>Power</source>
-        <translation>Power</translation>
+        <translation>Zasilanie</translation>
     </message>
     <message>
         <source>Toggle Machine power [%1]</source>
-        <translation>Maschinen Power schalten [%1]</translation>
+        <translation>Przełącz zasilanie maszyny [%1]</translation>
     </message>
 </context>
 <context>
     <name>ReopenAction</name>
     <message>
         <source>Reopen file</source>
-        <translation type="vanished">Datei wieder öffnen</translation>
+        <translation type="vanished">Ponownie otwórz plik</translation>
     </message>
     <message>
         <source>Reopen current file [%1]</source>
-        <translation>Aktuelle Datei wieder öffnen [%1]</translation>
+        <translation>Ponownie otwórz bieżący plik [%1]</translation>
     </message>
     <message>
         <source>Reopen File</source>
-        <translation>Datei erneut öffnen</translation>
+        <translation>Ponownie otwórz plik</translation>
     </message>
 </context>
 <context>
     <name>RunProgramAction</name>
     <message>
         <source>Run</source>
-        <translation>Starten</translation>
+        <translation>Uruchom</translation>
     </message>
     <message>
         <source>Begin executing current file [%1]</source>
-        <translation>Ausführen der aktuellen Datei starten [%1]</translation>
+        <translation>Rozpocznij realizację bieżącego pliku [%1]</translation>
     </message>
 </context>
 <context>
     <name>SelectedPage</name>
     <message>
         <source>Starting %1...</source>
-        <translation>Starte %1...</translation>
+        <translation>Uruchmianie %1...</translation>
     </message>
     <message>
         <source>Error starting %1</source>
-        <translation>Fehler beim starten von %1</translation>
+        <translation>Błąd uruchamiania %1</translation>
     </message>
     <message>
         <source>%1 exited</source>
-        <translation>%1 geschlossen</translation>
+        <translation>%1 zakończony</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Zurück</translation>
+        <translation>Powrót</translation>
     </message>
     <message>
         <source>Process exited with return code %1. See the log for details.</source>
-        <translation>Prozess beendet mit Rückgabewert %1. Siehe Log für Details.</translation>
+        <translation>Proces zakończony za pomocą kodu powrotu %1. Zobacz dziennik logów, aby uzyskać szczegółowe informacje.</translation>
     </message>
     <message>
         <source>Application Output</source>
-        <translation>Ausgabe der Anwendung</translation>
+        <translation>Wyjście z aplikacji</translation>
     </message>
     <message>
         <source>Machinekit Log</source>
-        <translation>Machinekit Log</translation>
+        <translation>Dziennik logów Machinekit</translation>
     </message>
 </context>
 <context>
     <name>ServiceWindow</name>
     <message>
         <source>Back</source>
-        <translation>Zurück</translation>
+        <translation>Powrót</translation>
     </message>
     <message>
         <source>Waiting for services to appear...</source>
-        <translation>Warte auf erscheinen der Dienste...</translation>
+        <translation>Oczekiwanie na pojawienie się usług...</translation>
     </message>
     <message>
         <source>%1 service</source>
-        <translation>%1 Dienst</translation>
+        <translation>Serwis %1</translation>
     </message>
 </context>
 <context>
     <name>ShutdownAction</name>
     <message>
         <source>Sh&amp;utdown</source>
-        <translation>&amp;Herunterfahren</translation>
+        <translation>Z&amp;amknij</translation>
     </message>
     <message>
         <source>Shutdown Machinekit instance [%1]</source>
-        <translation>Machinekit Instanz herunterfahren [%1]</translation>
+        <translation>Zamknij usługę Machinekit [%1]</translation>
     </message>
 </context>
 <context>
@@ -686,7 +687,7 @@ Jetzt neustarten?</translation>
     </message>
     <message>
         <source>Turn spindle counterclockwise [%1]</source>
-        <translation>Spindle gegen Uhrzeigersinn drehen [%1]</translation>
+        <translation>Obróć wrzeciono CCW [%1]</translation>
     </message>
 </context>
 <context>
@@ -697,77 +698,77 @@ Jetzt neustarten?</translation>
     </message>
     <message>
         <source>Turn spindle clockwise [%1]</source>
-        <translation>Spindel im Uhrzeigersinn drehen [%1]</translation>
+        <translation>Obróć wrzeciono CW [%1]</translation>
     </message>
 </context>
 <context>
     <name>SpindleOverrideAction</name>
     <message>
         <source>Spindle Override</source>
-        <translation>Spindelgeschwindigkeit überschreiben</translation>
+        <translation>Zmień nastawę prędkości wrzeciona</translation>
     </message>
     <message>
         <source>Enable spindle override [%1]</source>
-        <translation>Spindelgeschwindigkeit überschreiben aktivieren [%1]</translation>
+        <translation>Aktywuj zmianę nastawy prędkości wrzeciona [%1]</translation>
     </message>
 </context>
 <context>
     <name>StepProgramAction</name>
     <message>
         <source>Step</source>
-        <translation>Schritt</translation>
+        <translation>Krok</translation>
     </message>
     <message>
         <source>Execute next line [%1]</source>
-        <translation>Nächste Zeile ausführen [%1]</translation>
+        <translation>Zrealizuj następny wiersz [%1]</translation>
     </message>
 </context>
 <context>
     <name>StopProgramAction</name>
     <message>
         <source>Stop</source>
-        <translation>Anhalten</translation>
+        <translation>Stop</translation>
     </message>
     <message>
         <source>Stop program execution [%1]</source>
-        <translation>Programausführung anhalten [%1]</translation>
+        <translation>Wstrzymanie realizacji programu [%1]</translation>
     </message>
 </context>
 <context>
     <name>StopSpindleAction</name>
     <message>
         <source>Stop</source>
-        <translation>Anhalten</translation>
+        <translation>Stop</translation>
     </message>
     <message>
         <source>Stop spindle [%1]</source>
-        <translation>Spindel anhalten [%1]</translation>
+        <translation>Zatrzymaj wrzeciono [%1]</translation>
     </message>
 </context>
 <context>
     <name>TeleopAction</name>
     <message>
         <source>Teleop mode</source>
-        <translation type="vanished">Teleop Modus</translation>
+        <translation type="vanished">Tryb teleop</translation>
     </message>
     <message>
         <source>Enable teleop mode [%1]</source>
-        <translation>Teleop Modus aktivieren [%1]</translation>
+        <translation>Aktywuj tryb teleop [%1]</translation>
     </message>
     <message>
         <source>Teleop Mode</source>
-        <translation>Teleop Modus</translation>
+        <translation>Tryb Teleop</translation>
     </message>
 </context>
 <context>
     <name>ToolTableEditor</name>
     <message>
         <source>Tool ID</source>
-        <translation>Werkzeug ID</translation>
+        <translation>ID narzędzia</translation>
     </message>
     <message>
         <source>Pocket</source>
-        <translation>Position</translation>
+        <translation>Kieszeń</translation>
     </message>
     <message>
         <source>X</source>
@@ -807,95 +808,95 @@ Jetzt neustarten?</translation>
     </message>
     <message>
         <source>Diameter</source>
-        <translation>Durchmesser</translation>
+        <translation>Średnica</translation>
     </message>
     <message>
         <source>Front Angle</source>
-        <translation>Vorderer Winkel</translation>
+        <translation>Kąt przedni</translation>
     </message>
     <message>
         <source>Back Angle</source>
-        <translation>Hinterer Winkel</translation>
+        <translation>Kąt tylny</translation>
     </message>
     <message>
         <source>Orientation</source>
-        <translation>Orientierung</translation>
+        <translation>Orientacja</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation>Kommentar</translation>
+        <translation>Komentarz</translation>
     </message>
 </context>
 <context>
     <name>ToolTableEditorDialog</name>
     <message>
         <source>Tool Table Editor</source>
-        <translation>Werkzeug Editor</translation>
+        <translation>Edytor tabeli narzędzi</translation>
     </message>
     <message>
         <source>Error in tool table.</source>
-        <translation>Fehler in Werkzeugtabelle.</translation>
+        <translation>Błąd w tabeli narzędzi</translation>
     </message>
     <message>
         <source>Tool table has modifications.</source>
-        <translation>Werkzeugtabelle wurde verändert.</translation>
+        <translation>Tabela narzędzi została zmodyfikowana.</translation>
     </message>
     <message>
         <source>Add Row</source>
-        <translation>Reihe hinzufügen</translation>
+        <translation>Dodaj wiersz</translation>
     </message>
     <message>
         <source>Remove Row</source>
-        <translation>Reihe entfernen</translation>
+        <translation>Usuń wiersz</translation>
     </message>
     <message>
         <source>Reset Modifications</source>
-        <translation>Änderungen zurücksetzen</translation>
+        <translation>Resetuj zmiany</translation>
     </message>
     <message>
         <source>Update Tool Table</source>
-        <translation>Werkzeugtabelle übernehmen</translation>
+        <translation>Zaktualizuj tabelę narzędzi</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Schließen</translation>
+        <translation>Zamknij</translation>
     </message>
 </context>
 <context>
     <name>TouchOffAction</name>
     <message>
         <source>Touch Off</source>
-        <translation>Abweichung setzen</translation>
+        <translation>Touch off</translation>
     </message>
     <message>
         <source>Set G5x offset for active axis [%1]</source>
-        <translation>Setze G5x Abweichung für die aktive Achse [%1]</translation>
+        <translation>Ustaw offset G5x dla aktywnej osi [%1]</translation>
     </message>
 </context>
 <context>
     <name>TouchOffDialog</name>
     <message>
         <source>Touch Off</source>
-        <translation>Abweichung setzen</translation>
+        <translation>Touch off</translation>
     </message>
     <message>
         <source>Enter %1 coordinate relative to workpiece:</source>
-        <translation>%1 Koordinate relative zum Arbeitsstück eingeben:</translation>
+        <translation>Wprowadź współrzędną względem obrabianego elementu %1:</translation>
     </message>
     <message>
         <source>Coordinate system:</source>
-        <translation>Koordinatensystem:</translation>
+        <translation>Układ współrzędnych:</translation>
     </message>
 </context>
 <context>
     <name>UnhomeAxisAction</name>
     <message>
         <source>Unhome</source>
-        <translation>Unheimen</translation>
+        <translation>Ustaw w pozycji innej niż bazowa</translation>
     </message>
     <message>
         <source>Unhome axis %1 [%2]</source>
-        <translation>Achse unheimen %1 [%2]</translation>
+        <translation>Ustaw oś w pozycji innej niż bazowa %1 [%2]</translation>
     </message>
 </context>
 </TS>
