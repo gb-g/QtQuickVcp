@@ -42,6 +42,7 @@ cp %HOMEDRIVE%\tools\vcpkg\installed\%ARCH%-windows\bin\libzmq-mt-%ZMQVERSION%.d
 cd %HOMEDRIVE%\tools\vcpkg\installed\%ARCH%-windows
 SET ZEROMQDIR=%HOMEDRIVE%%HOMEPATH%\bin\zeromq4-x
 cp -r include %ZEROMQDIR% || goto :error
+rm -r %ZEROMQDIR%\include\google\protobuf || goto :error
 cd %APPVEYOR_BUILD_FOLDER% || goto :error
 
 vcpkg install protobuf:%ARCH%-windows-static-md
